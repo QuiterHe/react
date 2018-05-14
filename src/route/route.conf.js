@@ -1,5 +1,6 @@
 import Home from "../component/home/Home";
 import Shop from "../component/shop/Shop";
+import ShopDetail from "../component/shop/ShopDetail";
 import About from "../component/about/About";
 
 const route = [
@@ -15,7 +16,7 @@ const route = [
     },
     {
         path: "/shop/:id",
-        component: Shop,
+        component: ShopDetail,
         exact: true,
     },
     {
