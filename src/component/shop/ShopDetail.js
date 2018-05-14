@@ -20,7 +20,7 @@ const GoodsAPI = [
     },
 ];
 
-class Shop extends Component{
+class ShopDetail extends Component{
     constructor(props) {
         super(props);
         this.state = {
@@ -31,10 +31,13 @@ class Shop extends Component{
         return (
             <div>
                 <Nav></Nav>
+                {if(){}else{}}
                 <ul>
-                    {GoodsAPI.map( (g, i) => (
-                        <li key={i}><Link to={"/shop/" + g.id}>{g.name} </Link></li>
-                    ) )}
+                    <li>ID:{GoodsAPI.find((v, i, a) =>{
+                        return v.id;
+                    })}</li>
+                    <li></li>
+                    <li></li>
                 </ul>
             </div>
 
@@ -43,4 +46,4 @@ class Shop extends Component{
 }
 
 
-export default Shop;
+export default ShopDetail;

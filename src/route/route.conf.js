@@ -14,6 +14,11 @@ const route = [
         exact: true,
     },
     {
+        path: "/shop/:id",
+        component: Shop,
+        exact: true,
+    },
+    {
         path: "/about",
         component: About,
         exact: true,
