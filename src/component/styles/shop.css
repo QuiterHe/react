@@ -1,0 +1,23 @@
+#nav{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #20232a;
+}
+#nav li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    /*background-color: #30DDEB;*/
+}
+#nav li a{
+    color: white;
+    text-decoration: none;
+    margin:0px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background-color: transparent ;
+}
+#nav li a:hover{
+    color: rgb(97, 218, 251);/*鼠标经过事件*/
+}
