@@ -55,25 +55,35 @@
     background: white;
 }
 
-#shop-list-each li{
+#shop-list-each li a{
+    position: relative;
+    top: 0px;
     height: 100px;
     border: 1px solid #ffffff;
-    margin: 1px;
+    text-align: left;
 }
 
-#shop-list-each li div{
-    display: inherit;
-    float: left;
+#shop-list-each li a .shop-img{
+    position: absolute;
+    top: 0;
     width: 100px;
     height: 100px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
-#shop-list-each li .shop-detail {
-
+#shop-list-each li a .shop-img img{
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100px;
 }
 
-#shop-list-each li .shop-detail a{
+#shop-list-each li a .shop-detail {
+    margin-left: 105px;
+    height: 100px;
+}
+
+#shop-list-each li a .shop-detail a{
     width: 100px;
     height: 100px;
 

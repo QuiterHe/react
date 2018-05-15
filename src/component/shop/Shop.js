@@ -18,8 +18,10 @@ class Shop extends Component{
                 <ul id="shop-list-each">
                     {findAll().map( (g, i) => (
                         <li key={i}>
-                            <div className="shop-img"><img src={g.img} alt=""/></div>
-                            <div className="shop-detail"><Link to={"/shop/" + g.id}>{g.name} </Link></div>
+                            <Link to={"/shop/" + g.id}>
+                                <div className="shop-img"><img src={g.img} alt=""/></div>
+                                <div className="shop-detail">{g.name}</div>
+                            </Link>
                         </li>
                     ) )}
                 </ul>

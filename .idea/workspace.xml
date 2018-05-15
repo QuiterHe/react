@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7caa2ed7-0fe2-4e00-9b51-084e883d684e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/nav/Nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/shop/Shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/styles/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/styles/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/styles/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/styles/shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mock/goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock/goods.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,8 +32,8 @@
       <file leaf-file-name="goods.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mock/goods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            <state relative-caret-position="375">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -78,8 +74,8 @@
       <file leaf-file-name="Shop.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/shop/Shop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            <state relative-caret-position="418">
+              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -90,8 +86,8 @@
       <file leaf-file-name="shop.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/styles/shop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+            <state relative-caret-position="375">
+              <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -148,6 +144,7 @@
       <find>NumberList</find>
       <find>menu</find>
       <find>shop-list</find>
+      <find>shop-img</find>
     </findStrings>
     <replaceStrings>
       <replace>nav</replace>
@@ -171,9 +168,9 @@
         <option value="$PROJECT_DIR$/src/component/about/About.js" />
         <option value="$PROJECT_DIR$/src/component/nav/Nav.js" />
         <option value="$PROJECT_DIR$/src/component/styles/common.css" />
-        <option value="$PROJECT_DIR$/src/component/styles/shop.css" />
         <option value="$PROJECT_DIR$/src/mock/goods.js" />
         <option value="$PROJECT_DIR$/src/component/shop/Shop.js" />
+        <option value="$PROJECT_DIR$/src/component/styles/shop.css" />
       </list>
     </option>
   </component>
@@ -308,12 +305,12 @@
       <updated>1526025282320</updated>
       <workItem from="1526025286749" duration="11249000" />
       <workItem from="1526266466865" duration="8447000" />
-      <workItem from="1526289080123" duration="24030000" />
+      <workItem from="1526289080123" duration="27305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43726000" />
+    <option name="totallyTimeSpent" value="47001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="292" y="52" width="1400" height="1000" extended-state="0" />
@@ -322,12 +319,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2538071" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5010877" side_tool="true" visible="true" weight="0.3302217" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010877" side_tool="true" visible="true" weight="0.3302217" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49891225" visible="true" weight="0.3302217" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49891225" visible="true" weight="0.3302217" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -529,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/styles/shop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/route/route.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -582,15 +572,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mock/goods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="375">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/styles/shop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/shop/Shop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="418">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
