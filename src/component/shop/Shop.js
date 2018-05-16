@@ -15,16 +15,28 @@ class Shop extends Component{
         return (
             <div id="shop-list">
                 <Nav></Nav>
-                <ul id="shop-list-each">
+
                     {findAll().map( (g, i) => (
-                        <li key={i}>
-                            <Link to={"/shop/" + g.id}>
-                                <div className="shop-img"><img src={g.img} alt=""/></div>
-                                <div className="shop-detail">{g.name}</div>
-                            </Link>
-                        </li>
+                        <Link to={"/shop/" + g.id}>
+                            <div className="container">
+                                <div className="img-container">
+                                    <img src={g.img} alt="" className="img-img" />
+                                </div>
+                                <div className="detail">
+                                    <div className="name">
+                                        {g.name}
+                                    </div>
+                                    <div className="express">
+                                        <span style={{border:"1px solid orange", borderRadius: "2px", color: "orange"}}>包邮</span>
+                                    </div>
+                                    <div className="price" style={{color:"red"}}>
+                                        ￥{g.price}
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
                     ) )}
-                </ul>
+
             </div>
 
         );

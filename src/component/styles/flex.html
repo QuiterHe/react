@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .img-container {
+            width: 200px;
+            height: 200px;
+            background-color: cadetblue;
+            overflow: hidden;
+
+            flex: 1;
+
+            border: 2px ;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .detail {
+            display: flex;
+            flex-direction: column;
+
+            width: 200px;
+            height: 200px;
+            margin-left: 20px;
+            background-color: cornsilk;
+
+            overflow: hidden;
+            flex: 2;
+        }
+        .img-img {
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+        }
+
+        .name {
+            flex: 0 0 50%;
+            background-color: darkgoldenrod;
+            width: 100%;
+        }
+
+        .express {
+            flex: 0 0 25%;
+            background-color: aqua;
+            width: 100%;
+        }
+
+        .price {
+            flex: 0 0 25%;
+            background-color: cadetblue;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="img-container">
+        <img src="./a.jpeg" alt="" class="img-img">
+    </div>
+    <div class="detail">
+        <div class="name">
+            夏季新款男装长裤NIANJEEP商务休闲裤男士...
+        </div>
+        <div class="express">
+            包邮
+        </div>
+        <div class="price">
+            $180
+        </div>
+    </div>
+</div>
+</body>
+</html>
