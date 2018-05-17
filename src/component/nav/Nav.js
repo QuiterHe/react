@@ -3,12 +3,13 @@ import {Link} from "react-router-dom";
 import nav from "./nav.conf";
 import "../styles/common.css";
 import "../styles/shop.css";
+import "../styles/nav.css";
 
 class Nav extends Component{
     render() {
         return (
             <div>
-                <ul id="nav">
+                <ul id="navigation" className="navigation">
                     {nav.map((l, i) => (
                         <li key={i}>
                             <Link to={l.path}> {l.name} </Link>

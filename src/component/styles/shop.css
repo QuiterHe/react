@@ -103,3 +103,14 @@
     /*background-color: cadetblue;*/
     width: 100%;
 }
+
+.shop-items {
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+
+}
+
+.shop-item {
+    flex: 0 1 50%;
+}
