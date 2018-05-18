@@ -11,7 +11,7 @@ const nav = [
     },
     {
         path: "/about",
-        name: "About",
+        name: "User",
         icon: "user",
     },
 ];
