@@ -9,6 +9,9 @@ import {getGoodsList} from "../../redux/action";
 import "../../redux/action";
 import {APP_START, appStatus} from "../../redux/action";
 
+import {Spin, Row, Col} from 'antd';
+import 'antd/dist/antd.css';
+
 class Shop extends Component{
     constructor(props) {
         super(props);
@@ -27,9 +30,13 @@ class Shop extends Component{
         console.log(this.props.goodsList.goods);
         console.log("Data=======E");
         if(!this.props.goodsList.goods) {
-            return <h1>
-                Empty
-            </h1>
+            return (<div>
+                    <Nav></Nav>
+                    <Spin >
+                        <div style={{height: "150px"}}></div>
+                    </Spin>
+                </div>)
+
         }
         return (
             <div id="shop-list">

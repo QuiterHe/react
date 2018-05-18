@@ -1,15 +1,18 @@
 const nav = [
     {
         path: "/home",
-        name: "Home"
+        name: "Home",
+        icon: "home",
     },
     {
         path: "/shop",
-        name: "Shop"
+        name: "Shop",
+        icon: "shop",
     },
     {
         path: "/about",
-        name: "About"
+        name: "About",
+        icon: "user",
     },
 ];
 

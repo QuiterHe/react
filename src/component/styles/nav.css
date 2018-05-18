@@ -21,6 +21,9 @@
     color: white;
 }
 
+.navigation .ant-input-search-enter-button {
+    padding: 0.8em;
+}
 .navigation a:hover {
     /*background: darken(deepskyblue, 2%);*/
     background:lightskyblue;
